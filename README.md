@@ -23,3 +23,19 @@ It includes preprocessing, training, evaluation, and prediction scripts.
 Best params: {'clf__C': 1.0, 'clf__solver': 'lbfgs'}
 ROC-AUC: 0.84
 Confusion matrix: [[917, 118], [169, 205]]
+---
+
+## 🖼️ Screenshots
+
+### Model Training
+![Training Output](screenshots/training_output.png)
+
+### Prediction Example
+![Prediction Output](screenshots/prediction_output.png)
+
+---
+
+## 🧠 Key Insights
+- Logistic Regression achieved **ROC-AUC ≈ 0.84** on the Telco dataset.
+- The model predicts churn probability per customer and outputs a clear confusion matrix.
+- Clean, reproducible pipeline: preprocess → train → evaluate → save → predict.
